@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "target": "esnext",
+        "module": "esnext",
+        "skipLibCheck": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "noEmit": true,
+        "lib": ["esnext", "dom"],
+        "paths": { // 路径映射，相对于baseUrl
+            "@/*": ["src/*"]
+        },
+    },
+    "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
+    "exclude": ["node_modules"]
+}

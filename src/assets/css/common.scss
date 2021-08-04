@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: #000;
+    -webkit-overflow-scrolling: touch;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    font-family: -apple-system-font,
+        BlinkMacSystemFont,
+        "Helvetica Neue",
+        "PingFang SC",
+        "Hiragino Sans GB",
+        Arial,
+        sans-serif;
+    white-space: normal;
+    word-wrap: break-word;
+    word-break: break-all;
+    line-height: 1.5;
+    font-size: 14px;
+}
