@@ -7,7 +7,6 @@
         "build": "webpack",
         "build:vite": "vite build",
         "serve": "vite preview",
-        "prepare": "husky install",
         "ts-compile-check": "tsc -p tsconfig.json"
     },
     "dependencies": {
@@ -39,7 +38,6 @@
         "file-loader": "^6.2.0",
         "friendly-errors-webpack-plugin": "^1.7.0",
         "html-webpack-plugin": "^5.3.1",
-        "husky": "^6.0.0",
         "lint-staged": "^11.0.0",
         "mini-css-extract-plugin": "^1.6.0",
         "postcss-loader": "^6.1.0",
@@ -51,11 +49,10 @@
         "url-loader": "^4.1.1",
         "vite": "^2.3.5",
         "vite-plugin-html": "^2.0.7",
-        "vue-loader": "^16.2.0",
+        "vue-loader": "^15.9.8",
         "vue-tsc": "^0.0.24",
         "webpack": "^5.38.1",
         "webpack-cli": "^4.7.0",
         "webpackbar": "^5.0.0-3"
-    },
-    "postinstall": "npx husky install"
+    }
 }
