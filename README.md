@@ -1,4 +1,4 @@
-# Vue 3 + Typescript + Vite + Webpack + Mew
+# Vue 3 + Typescript + Vite + Webpack 模版
 
 该模板是基于vue3 + ts 搭建的，打包工具采用vite和webpack结合的方式，开发环境使用vite作为开发服务器，打包使用webpack进行打包，支持tsx、vue编写
 
